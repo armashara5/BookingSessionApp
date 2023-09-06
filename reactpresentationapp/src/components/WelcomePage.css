@@ -1,0 +1,33 @@
+/* Use flexbox to center the elements */
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the full viewport height */
+}
+
+/* Use a larger font size and margin for the welcome text */
+.welcome-text {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+/* Use a flex container to arrange the buttons horizontally */
+.button-container {
+    display: flex;
+    gap: 2rem; /* Use a gap to create space between the buttons */
+}
+
+/* Remove the default styling of the link elements */
+.button-link {
+    text-decoration: none;
+}
+
+/* Style the buttons with some color, padding and border-radius */
+.button-style {
+    color: white;
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}

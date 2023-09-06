@@ -1,0 +1,69 @@
+/* Use flexbox to center the elements */
+.booking-session-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use the full viewport height */
+}
+
+/* Use a larger font size and margin for the booking title */
+.booking-title {
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+/* Style the booking form with some width, padding and border */
+.booking-form {
+    width: 80%;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+}
+
+/* Use flexbox to arrange the form groups vertically */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+/* Style the form labels with some font size and color */
+.form-label {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Style the form inputs with some width, padding, border and outline */
+.form-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Style the form select with some width, padding, border and outline */
+.form-select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Style the form datetime picker with some width, padding, border and outline */
+.form-datetime {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Style the book button with some color, padding, border-radius and cursor */
+.book-button {
+    color: white;
+    background-color: #007bff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
